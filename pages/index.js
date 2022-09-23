@@ -32,7 +32,7 @@ export default function Home() {
       <section className={styles.section}>
         <h2>Skills & Qualifications</h2>
         <ul id={styles.qualifications}>
-            <li>✔️ 2 Year experience with frontend development</li>
+            <li>✔️ 2 Year experience with Web Development</li>
             <li>✔️ Extensive knowledge in API</li>
         </ul>
       </section>
