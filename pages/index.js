@@ -33,7 +33,7 @@ export default function Home() {
         <h2>Skills & Qualifications</h2>
         <ul id={styles.qualifications}>
             <li>✔️ 2 Year experience with Web Development</li>
-            <li>✔️ Extensive knowledge in API</li>
+            <li>✔️ Extensive knowledge in API & Database Design</li>
         </ul>
       </section>
 
@@ -43,13 +43,34 @@ export default function Home() {
       <div id={styles.wrapperTechstack}>
           <div className={styles.cardTechstack}><span>Python, JavaScript</span></div>
           <div className={styles.cardTechstack}><span>Django</span></div>
-          <div className={styles.cardTechstack}><span>React, Next JS</span></div>
-          <div className={styles.cardTechstack}><span>Vue js, Astro</span></div>
+          <div className={styles.cardTechstack}><span>React</span></div>
+          <div className={styles.cardTechstack}><span>Vue js</span></div>
+      </div>
+    </section>
+
+    <section id={styles.workHistoryWrapper} className={styles.section}>
+      <h2>Work History</h2>
+      <div className={styles.lineBreak}></div>
+      <div className={styles.cardWorkHistory}>
+          <strong>🚧 DEVELOPER ADVOCATE | POMONEWS24.COM</strong>
+          <p>09/2022 - Present</p>
+          <p>I design and develop the official website and also improve the SEO.</p>
+          
       </div>
     </section>
 
     <section className={styles.section}>
       <h2>Projects & Accomplishments</h2>
+      <div className={styles.cardProject}>
+          <a href="https://pomonews24.com"><span>🏆 </span>Built an online news portal management system</a> &#8594;
+
+          <div id={styles.technology}>
+
+          <Image src="/django.svg" alt="site logo" width={30} height={30} />
+          
+          </div>
+             
+      </div>
 
       <div className={styles.cardProject}>
           <a href="https://goalcard.netlify.app"><span>🏆 </span>Built a Goal management system - open source project </a> &#8594;
@@ -65,17 +86,18 @@ export default function Home() {
       </div>
 
       <div className={styles.cardProject}>
-          <a href="https://github.com/patoski716/Netflix-clone-with-astro"><span>🏆 </span>Built a Netlify Landing Page - open source project </a> &#8594;
+          <a href="https://sanity-career.netlify.app/"><span>🏆 </span>Built a Career path couselling system - open source project </a> &#8594;
 
           <div id={styles.technology}>
 
-          <Image src="/astro.png" alt="site logo" width={30} height={30} />
+          <Image src="/react.svg" alt="site logo" width={30} height={30} />
 
-         
+          <Image src="/sanity.svg" alt="site logo" width={30} height={30} />       
           
           </div>
              
       </div>
+
 
       <div className={styles.cardProject}>
           <a href="https://promanagers.netlify.app/"><span>🏆 </span>Built a Project manager system - open source project </a> &#8594;
@@ -93,14 +115,15 @@ export default function Home() {
              
       </div>
 
+      
       <div className={styles.cardProject}>
-          <a href="https://sanity-career.netlify.app/"><span>🏆 </span>Built a Career path couselling system - open source project </a> &#8594;
+          <a href="https://github.com/patoski716/Netflix-clone-with-astro"><span>🏆 </span>Built a Netlify Landing Page - open source project </a> &#8594;
 
           <div id={styles.technology}>
 
-          <Image src="/react.svg" alt="site logo" width={30} height={30} />
+          <Image src="/astro.png" alt="site logo" width={30} height={30} />
 
-          <Image src="/sanity.svg" alt="site logo" width={30} height={30} />       
+         
           
           </div>
              
