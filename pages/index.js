@@ -62,7 +62,7 @@ export default function Home() {
     <section className={styles.section}>
       <h2>Projects & Accomplishments</h2>
       <div className={styles.cardProject}>
-          <a href="https://pomonews24.com"><span>🏆 </span>Built an online news portal management system</a> &#8594;
+          <a href="https://pomonews24.com"><span>🏆 </span>Built an online news portal management system for pomonews24</a> &#8594;
 
           <div id={styles.technology}>
 
