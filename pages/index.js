@@ -68,26 +68,14 @@ export default function Home() {
       <div className={styles.cardProject}>
           <a href="https://goalcard.netlify.app"><span>🏆 </span>Built a Goal management system - open source project </a> &#8594;
 
-          <div id={styles.technology}>
-
-          <Image src="/vue.svg" alt="site logo" width={30} height={30} />
-
-          <Image src="/django.svg" alt="site logo" width={30} height={30} />
           
-          </div>
              
       </div>
 
       <div className={styles.cardProject}>
           <a href="https://sanity-career.netlify.app/"><span>🏆 </span>Built a Career path couselling system - open source project </a> &#8594;
 
-          <div id={styles.technology}>
-
-          <Image src="/react.svg" alt="site logo" width={30} height={30} />
-
-          <Image src="/sanity.svg" alt="site logo" width={30} height={30} />       
-          
-          </div>
+         
              
       </div>
 
@@ -95,16 +83,7 @@ export default function Home() {
       <div className={styles.cardProject}>
           <a href="https://promanagers.netlify.app/"><span>🏆 </span>Built a Project manager system - open source project </a> &#8594;
 
-          <div id={styles.technology}>
-
-          <Image src="/react.svg" alt="site logo" width={30} height={30} />
-
-          <Image src="/redux.svg" alt="site logo" width={30} height={30} />
-
-          <Image src="/django.svg" alt="site logo" width={30} height={30} />
-         
           
-          </div>
              
       </div>
 
@@ -112,13 +91,7 @@ export default function Home() {
       <div className={styles.cardProject}>
           <a href="https://github.com/patoski716/Netflix-clone-with-astro"><span>🏆 </span>Built a Netlify Landing Page - open source project </a> &#8594;
 
-          <div id={styles.technology}>
-
-          <Image src="/astro.png" alt="site logo" width={30} height={30} />
-
-         
           
-          </div>
              
       </div>
     </section>
