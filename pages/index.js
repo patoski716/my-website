@@ -52,7 +52,7 @@ export default function Home() {
       <h2>Work History</h2>
       <div className={styles.lineBreak}></div>
       <div className={styles.cardWorkHistory}>
-          <strong>🚧 DEVELOPER ADVOCATE | POMONEWS24.COM</strong>
+          <strong>🚧 Freelance Software Developer | POMONEWS24.COM</strong>
           <p>09/2022 - Present</p>
           <p>I design and develop the official website and also improve the SEO.</p>
           
