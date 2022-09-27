@@ -64,10 +64,7 @@ export default function Home() {
       <div className={styles.cardProject}>
           <a href="https://pomonews24.com"><span>🏆 </span>Built an online news portal management system for pomonews24</a> &#8594;
 
-          <div id={styles.technology}>
-
-          <Image src="/django.svg" alt="site logo" width={30} height={30} />
-          
+          <div id={styles.technology}>          
           </div>
              
       </div>
